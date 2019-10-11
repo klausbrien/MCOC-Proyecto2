@@ -32,3 +32,42 @@ El desplazamiento en x de la partícula según la velocidad a la que se mueve se
 Grafico:
 
 ![65996866-a65a9300-e46e-11e9-945e-d2ca47f3125f](https://user-images.githubusercontent.com/53713567/66690292-98262700-ec65-11e9-921e-71e33bc9da6e.png)
+
+Discusion de resultados:
+
+Características del computador:
+
+Marca: hp
+Procesador: intel core i5
+Memoria instalada: 6gb
+Tipo de sistema operativo:  sistema operativo de 64 bits
+Edicion de windows: windows 7  professional
+
+En lo siguiente se busca ver como responde el computador a la modelación de 4 números de partículas distintos. Es de esperar que a medida de que se incrementa el numero de particulas simuladas, el computador tarde más en modelar, debido a que el número de pasos del algoritmo va creciendo con el número de partículas. Para obtener un tiempo representativo y no depender de otros procesos que pueda estar llevando a cabo el ordenador, se corrió el programa 3 veces con cada numero de particulas, obteniendo de esta forma un promedio de tiempo representativo.
+
+Tiempo por cada nro de partículas:
+
+1)  1 partícula: 2,3 seg
+2) 2 partículas: 10,1 seg
+3) 5 partículas: 17,1 seg
+4) 10 partículas: 27,7 seg
+5) 20 partículas: 109,9 seg
+
+Gráficos:
+
+2 partículas:
+![2 particulas](https://user-images.githubusercontent.com/53713567/66690672-023fcb80-ec68-11e9-81d0-5a9c8ecbd13b.jpeg)
+
+
+5 partículas:
+![5 particulas](https://user-images.githubusercontent.com/53713567/66690681-1683c880-ec68-11e9-9dab-bacd53969330.jpeg)
+
+
+10 partículas:
+![10 partículas](https://user-images.githubusercontent.com/53713567/66690693-23082100-ec68-11e9-9677-80aa26833888.jpeg)
+
+
+20 partículas:
+![20 partículas](https://user-images.githubusercontent.com/53713567/66690697-2dc2b600-ec68-11e9-9c94-c19db6f95e12.jpeg)
+
+Como se dijo anteriormente, los sedimentos en el fondo del cauce de agua son arrastrados debido a la velocidad del agua. La trayectoria de cada partícula va a depender de propiedades físicas de cada partícula como densidad, su geometría y textura superficial. Para efectos de esta modelación, se asume que todas las partículas son del mismo tamaño y forma, esférica perfecta, calculandose el drag de cada una de la misma forma. Al ir incrementando el numero de particulas, aumenta la posibilidad de que las partículas puedan chocar entre ellas, lo que altera su trayectoria. El total transcurrido que modela el código confeccionado es de  0,5 segundos para así poder obtener el máximo detalle de un periodo acotado de tiempo. El choque entre partículas está definido en el código como una fuerza k_penal, la que representa la  reacción en una partícula debido al choque sufrido con otra de determinada masa.
