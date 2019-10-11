@@ -31,3 +31,4 @@ El desplazamiento en x de la partícula según la velocidad a la que se mueve se
 
 Grafico:
 
+![65996866-a65a9300-e46e-11e9-945e-d2ca47f3125f](https://user-images.githubusercontent.com/53713567/66690292-98262700-ec65-11e9-921e-71e33bc9da6e.png)
