@@ -15,13 +15,19 @@ Se busca poder entender con más detalle el comportamiento de un número crecien
  
 Resultados para una partícula
  
-Para el estudio del comportamiento de una partícula transportada por un fluido se usaron los siguientes datos y supuestos:
-La partícula transportada corresponde a una grano de arena.
+ Para el estudio del comportamiento de una partícula transportada por un fluido se usaron los siguientes datos y supuestos:
+ 
+ La partícula transportada corresponde a una grano de arena.
 La forma de la partícula es considerada esférica.
 El comportamiento se estudia mediante relaciones Euler-Lagrange
-Datos usados
+
+Datos usados:
+
 diámetro de partícula = 1 mm
 densidad de partícula = 155 kg/m^3
 coeficiente Drag para partícula esférica = 0,47
+
 El desplazamiento en x de la partícula según la velocidad a la que se mueve se muestra en el siguiente gráfico, donde el eje "x" representa el desplazamiento y el eje "y" la velocidad en determinado instante.
+
+Grafico:
 
